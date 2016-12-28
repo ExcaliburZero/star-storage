@@ -7,6 +7,7 @@ scalaVersion := "2.12.1"
 libraryDependencies ++= {
   Seq(
     "com.sparkjava" % "spark-core" % "2.5.4",
-    "io.argonaut" %% "argonaut" % "6.2-RC2"
+    "io.argonaut" %% "argonaut" % "6.2-RC2",
+    "mysql" % "mysql-connector-java" % "5.1.39"
   )
 }
